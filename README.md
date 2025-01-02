@@ -15,12 +15,16 @@ pip install --upgrade pipenv
 ```bash
 git clone https://github.com/marginalex2001/OCServ_notifications.git
 ```
+```
+cd OCServ_notifications
+```
 Войдите под пользователем `root`:
 ```bash
 sudo -s
 ```
 Запустите скрипт установки:
 ```
+chmod +x install.sh
 ./install.sh
 ```
 Для получения токена необходимо создать бота в [@BotFather](https://t.me/BotFather) и скопировать его токен в скрипт.
